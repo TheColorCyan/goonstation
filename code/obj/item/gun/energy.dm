@@ -1598,6 +1598,7 @@ TYPEINFO(/obj/item/gun/energy/wasp)
 	is_syndicate = 1
 	silenced = 1
 	custom_cell_max_capacity = 100
+	can_swap_cell = FALSE
 
 	New()
 		set_current_projectile(new/datum/projectile/special/spreader/quadwasp)

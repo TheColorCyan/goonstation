@@ -323,6 +323,7 @@ TYPEINFO(/obj/item/gun/energy/crossbow)
 	muzzle_flash = null
 	uses_charge_overlay = TRUE
 	charge_icon_state = "crossbow"
+	can_swap_cell = FALSE
 
 	New()
 		set_current_projectile(new/datum/projectile/rad_bolt)
